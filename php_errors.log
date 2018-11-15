@@ -1,0 +1,184 @@
+[12-Mar-2017 14:20:49 UTC] PHP Warning:  require(/home/ubuntu/workspace/header.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/minishop2/htdocs/index.php on line 100
+[12-Mar-2017 14:20:49 UTC] PHP Stack trace:
+[12-Mar-2017 14:20:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/minishop2/htdocs/index.php:0
+[12-Mar-2017 14:20:49 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/header.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/minishop2/htdocs/index.php on line 100
+[12-Mar-2017 14:20:49 UTC] PHP Stack trace:
+[12-Mar-2017 14:20:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/minishop2/htdocs/index.php:0
+[12-Mar-2017 14:21:30 UTC] PHP Warning:  require(/home/ubuntu/workspace/header.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/minishop2/htdocs/index.php on line 100
+[12-Mar-2017 14:21:30 UTC] PHP Stack trace:
+[12-Mar-2017 14:21:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/minishop2/htdocs/index.php:0
+[12-Mar-2017 14:21:30 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/header.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/minishop2/htdocs/index.php on line 100
+[12-Mar-2017 14:21:30 UTC] PHP Stack trace:
+[12-Mar-2017 14:21:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/minishop2/htdocs/index.php:0
+[12-Mar-2017 14:21:30 UTC] PHP Warning:  require(/home/ubuntu/workspace/header.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/minishop2/htdocs/index.php on line 100
+[12-Mar-2017 14:21:30 UTC] PHP Stack trace:
+[12-Mar-2017 14:21:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/minishop2/htdocs/index.php:0
+[12-Mar-2017 14:21:30 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/header.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/minishop2/htdocs/index.php on line 100
+[12-Mar-2017 14:21:30 UTC] PHP Stack trace:
+[12-Mar-2017 14:21:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/minishop2/htdocs/index.php:0
+[12-Mar-2017 14:21:34 UTC] PHP Warning:  require(/home/ubuntu/workspace/header.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/minishop2/htdocs/index.php on line 100
+[12-Mar-2017 14:21:34 UTC] PHP Stack trace:
+[12-Mar-2017 14:21:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/minishop2/htdocs/index.php:0
+[12-Mar-2017 14:21:34 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/header.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/minishop2/htdocs/index.php on line 100
+[12-Mar-2017 14:21:34 UTC] PHP Stack trace:
+[12-Mar-2017 14:21:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/minishop2/htdocs/index.php:0
+[12-Mar-2017 14:21:45 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/ubuntu/workspace/minishop2/htdocs/install.php on line 2
+[12-Mar-2017 14:21:45 UTC] PHP Stack trace:
+[12-Mar-2017 14:21:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/minishop2/htdocs/install.php:0
+[12-Mar-2017 14:21:45 UTC] PHP   2. mysqli_connect() /home/ubuntu/workspace/minishop2/htdocs/install.php:2
+[12-Mar-2017 14:24:21 UTC] PHP Warning:  require(/home/ubuntu/workspace/header.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/minishop2/htdocs/index.php on line 100
+[12-Mar-2017 14:24:21 UTC] PHP Stack trace:
+[12-Mar-2017 14:24:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/minishop2/htdocs/index.php:0
+[12-Mar-2017 14:24:21 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/header.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/minishop2/htdocs/index.php on line 100
+[12-Mar-2017 14:24:21 UTC] PHP Stack trace:
+[12-Mar-2017 14:24:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/minishop2/htdocs/index.php:0
+[12-Mar-2017 14:24:30 UTC] PHP Warning:  require(/home/ubuntu/workspace/header.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/minishop2/htdocs/index.php on line 100
+[12-Mar-2017 14:24:30 UTC] PHP Stack trace:
+[12-Mar-2017 14:24:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/minishop2/htdocs/index.php:0
+[12-Mar-2017 14:24:30 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/header.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/minishop2/htdocs/index.php on line 100
+[12-Mar-2017 14:24:30 UTC] PHP Stack trace:
+[12-Mar-2017 14:24:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/minishop2/htdocs/index.php:0
+[12-Mar-2017 14:37:14 UTC] PHP Warning:  require(/home/ubuntu/workspace/header.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/minishop2/htdocs/index.php on line 100
+[12-Mar-2017 14:37:14 UTC] PHP Stack trace:
+[12-Mar-2017 14:37:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/minishop2/htdocs/index.php:0
+[12-Mar-2017 14:37:14 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/header.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/minishop2/htdocs/index.php on line 100
+[12-Mar-2017 14:37:14 UTC] PHP Stack trace:
+[12-Mar-2017 14:37:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/minishop2/htdocs/index.php:0
+[12-Mar-2017 14:37:17 UTC] PHP Warning:  require(/home/ubuntu/workspace/header.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/minishop2/htdocs/index.php on line 100
+[12-Mar-2017 14:37:17 UTC] PHP Stack trace:
+[12-Mar-2017 14:37:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/minishop2/htdocs/index.php:0
+[12-Mar-2017 14:37:17 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/header.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/minishop2/htdocs/index.php on line 100
+[12-Mar-2017 14:37:17 UTC] PHP Stack trace:
+[12-Mar-2017 14:37:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/minishop2/htdocs/index.php:0
+[12-Mar-2017 14:37:23 UTC] PHP Warning:  require(/home/ubuntu/workspace/header.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/minishop2/htdocs/index.php on line 100
+[12-Mar-2017 14:37:23 UTC] PHP Stack trace:
+[12-Mar-2017 14:37:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/minishop2/htdocs/index.php:0
+[12-Mar-2017 14:37:23 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/header.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/minishop2/htdocs/index.php on line 100
+[12-Mar-2017 14:37:23 UTC] PHP Stack trace:
+[12-Mar-2017 14:37:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/minishop2/htdocs/index.php:0
+[12-Mar-2017 14:54:24 UTC] PHP Warning:  require(/home/ubuntu/workspace/header.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/minishop2/htdocs/index.php on line 105
+[12-Mar-2017 14:54:24 UTC] PHP Stack trace:
+[12-Mar-2017 14:54:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/minishop2/htdocs/index.php:0
+[12-Mar-2017 14:54:24 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/header.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/minishop2/htdocs/index.php on line 105
+[12-Mar-2017 14:54:24 UTC] PHP Stack trace:
+[12-Mar-2017 14:54:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/minishop2/htdocs/index.php:0
+[12-Mar-2017 15:18:20 UTC] PHP Warning:  require(/home/ubuntu/workspace/header.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/minishop2/htdocs/index.php on line 108
+[12-Mar-2017 15:18:20 UTC] PHP Stack trace:
+[12-Mar-2017 15:18:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/minishop2/htdocs/index.php:0
+[12-Mar-2017 15:18:20 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/header.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/minishop2/htdocs/index.php on line 108
+[12-Mar-2017 15:18:20 UTC] PHP Stack trace:
+[12-Mar-2017 15:18:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/minishop2/htdocs/index.php:0
+[12-Mar-2017 15:27:29 UTC] PHP Warning:  require(/home/ubuntu/workspace/header.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/minishop2/htdocs/index.php on line 108
+[12-Mar-2017 15:27:29 UTC] PHP Stack trace:
+[12-Mar-2017 15:27:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/minishop2/htdocs/index.php:0
+[12-Mar-2017 15:27:29 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/header.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/minishop2/htdocs/index.php on line 108
+[12-Mar-2017 15:27:29 UTC] PHP Stack trace:
+[12-Mar-2017 15:27:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/minishop2/htdocs/index.php:0
+[12-Mar-2017 15:27:36 UTC] PHP Warning:  require(/home/ubuntu/workspace/header.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/minishop2/htdocs/admin.php on line 50
+[12-Mar-2017 15:27:36 UTC] PHP Stack trace:
+[12-Mar-2017 15:27:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/minishop2/htdocs/admin.php:0
+[12-Mar-2017 15:27:36 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/header.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/minishop2/htdocs/admin.php on line 50
+[12-Mar-2017 15:27:36 UTC] PHP Stack trace:
+[12-Mar-2017 15:27:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/minishop2/htdocs/admin.php:0
+[12-Mar-2017 15:30:43 UTC] PHP Warning:  require(/home/ubuntu/workspace/header.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/minishop2/htdocs/categories.php on line 11
+[12-Mar-2017 15:30:43 UTC] PHP Stack trace:
+[12-Mar-2017 15:30:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/minishop2/htdocs/categories.php:0
+[12-Mar-2017 15:30:43 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/header.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/minishop2/htdocs/categories.php on line 11
+[12-Mar-2017 15:30:43 UTC] PHP Stack trace:
+[12-Mar-2017 15:30:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/minishop2/htdocs/categories.php:0
+[12-Mar-2017 15:32:37 UTC] PHP Warning:  require(/home/ubuntu/workspace/header.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/minishop2/htdocs/categories.php on line 11
+[12-Mar-2017 15:32:37 UTC] PHP Stack trace:
+[12-Mar-2017 15:32:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/minishop2/htdocs/categories.php:0
+[12-Mar-2017 15:32:37 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/header.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/minishop2/htdocs/categories.php on line 11
+[12-Mar-2017 15:32:37 UTC] PHP Stack trace:
+[12-Mar-2017 15:32:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/minishop2/htdocs/categories.php:0
+[12-Mar-2017 15:39:33 UTC] PHP Warning:  require(/home/ubuntu/workspace/header.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/minishop2/htdocs/index.php on line 108
+[12-Mar-2017 15:39:33 UTC] PHP Stack trace:
+[12-Mar-2017 15:39:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/minishop2/htdocs/index.php:0
+[12-Mar-2017 15:39:33 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/header.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/minishop2/htdocs/index.php on line 108
+[12-Mar-2017 15:39:33 UTC] PHP Stack trace:
+[12-Mar-2017 15:39:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/minishop2/htdocs/index.php:0
+[12-Mar-2017 15:39:55 UTC] PHP Warning:  require(/home/ubuntu/workspace/header.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/minishop2/htdocs/index.php on line 108
+[12-Mar-2017 15:39:55 UTC] PHP Stack trace:
+[12-Mar-2017 15:39:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/minishop2/htdocs/index.php:0
+[12-Mar-2017 15:39:55 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/header.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/minishop2/htdocs/index.php on line 108
+[12-Mar-2017 15:39:55 UTC] PHP Stack trace:
+[12-Mar-2017 15:39:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/minishop2/htdocs/index.php:0
+[12-Mar-2017 15:42:46 UTC] PHP Warning:  require(/home/ubuntu/workspace/header.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/minishop2/htdocs/index.php on line 108
+[12-Mar-2017 15:42:46 UTC] PHP Stack trace:
+[12-Mar-2017 15:42:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/minishop2/htdocs/index.php:0
+[12-Mar-2017 15:42:46 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/header.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/minishop2/htdocs/index.php on line 108
+[12-Mar-2017 15:42:46 UTC] PHP Stack trace:
+[12-Mar-2017 15:42:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/minishop2/htdocs/index.php:0
+[12-Mar-2017 15:46:40 UTC] PHP Warning:  require(/home/ubuntu/workspace/header.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/minishop2/htdocs/index.php on line 108
+[12-Mar-2017 15:46:40 UTC] PHP Stack trace:
+[12-Mar-2017 15:46:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/minishop2/htdocs/index.php:0
+[12-Mar-2017 15:46:40 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/header.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/minishop2/htdocs/index.php on line 108
+[12-Mar-2017 15:46:40 UTC] PHP Stack trace:
+[12-Mar-2017 15:46:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/minishop2/htdocs/index.php:0
+[12-Mar-2017 15:46:45 UTC] PHP Warning:  require(/home/ubuntu/workspace/header.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/minishop2/htdocs/index.php on line 108
+[12-Mar-2017 15:46:45 UTC] PHP Stack trace:
+[12-Mar-2017 15:46:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/minishop2/htdocs/index.php:0
+[12-Mar-2017 15:46:45 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/header.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/minishop2/htdocs/index.php on line 108
+[12-Mar-2017 15:46:45 UTC] PHP Stack trace:
+[12-Mar-2017 15:46:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/minishop2/htdocs/index.php:0
+[12-Mar-2017 16:03:41 UTC] PHP Warning:  require(/home/ubuntu/workspace/header.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/minishop2/htdocs/index.php on line 108
+[12-Mar-2017 16:03:41 UTC] PHP Stack trace:
+[12-Mar-2017 16:03:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/minishop2/htdocs/index.php:0
+[12-Mar-2017 16:03:41 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/header.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/minishop2/htdocs/index.php on line 108
+[12-Mar-2017 16:03:41 UTC] PHP Stack trace:
+[12-Mar-2017 16:03:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/minishop2/htdocs/index.php:0
+[12-Mar-2017 16:12:49 UTC] PHP Warning:  require(/home/ubuntu/workspace/header.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/minishop2/htdocs/index.php on line 108
+[12-Mar-2017 16:12:49 UTC] PHP Stack trace:
+[12-Mar-2017 16:12:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/minishop2/htdocs/index.php:0
+[12-Mar-2017 16:12:49 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/header.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/minishop2/htdocs/index.php on line 108
+[12-Mar-2017 16:12:49 UTC] PHP Stack trace:
+[12-Mar-2017 16:12:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/minishop2/htdocs/index.php:0
+[12-Mar-2017 16:13:03 UTC] PHP Warning:  require(/home/ubuntu/workspace/header.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/minishop2/htdocs/index.php on line 108
+[12-Mar-2017 16:13:03 UTC] PHP Stack trace:
+[12-Mar-2017 16:13:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/minishop2/htdocs/index.php:0
+[12-Mar-2017 16:13:03 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/header.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/minishop2/htdocs/index.php on line 108
+[12-Mar-2017 16:13:03 UTC] PHP Stack trace:
+[12-Mar-2017 16:13:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/minishop2/htdocs/index.php:0
+[12-Mar-2017 16:13:09 UTC] PHP Warning:  require(/home/ubuntu/workspace/header.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/minishop2/htdocs/index.php on line 108
+[12-Mar-2017 16:13:09 UTC] PHP Stack trace:
+[12-Mar-2017 16:13:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/minishop2/htdocs/index.php:0
+[12-Mar-2017 16:13:09 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/header.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/minishop2/htdocs/index.php on line 108
+[12-Mar-2017 16:13:09 UTC] PHP Stack trace:
+[12-Mar-2017 16:13:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/minishop2/htdocs/index.php:0
+[12-Mar-2017 16:13:56 UTC] PHP Warning:  require(/home/ubuntu/workspace/header.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/minishop2/htdocs/index.php on line 108
+[12-Mar-2017 16:13:56 UTC] PHP Stack trace:
+[12-Mar-2017 16:13:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/minishop2/htdocs/index.php:0
+[12-Mar-2017 16:13:56 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/header.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/minishop2/htdocs/index.php on line 108
+[12-Mar-2017 16:13:56 UTC] PHP Stack trace:
+[12-Mar-2017 16:13:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/minishop2/htdocs/index.php:0
+[12-Mar-2017 16:14:54 UTC] PHP Warning:  require(/home/ubuntu/workspace/header.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/minishop2/htdocs/index.php on line 108
+[12-Mar-2017 16:14:54 UTC] PHP Stack trace:
+[12-Mar-2017 16:14:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/minishop2/htdocs/index.php:0
+[12-Mar-2017 16:14:54 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/header.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/minishop2/htdocs/index.php on line 108
+[12-Mar-2017 16:14:54 UTC] PHP Stack trace:
+[12-Mar-2017 16:14:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/minishop2/htdocs/index.php:0
+[24-Mar-2017 13:34:48 UTC] PHP Warning:  require(/home/ubuntu/workspace/header.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/minishop2/htdocs/index.php on line 108
+[24-Mar-2017 13:34:48 UTC] PHP Stack trace:
+[24-Mar-2017 13:34:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/minishop2/htdocs/index.php:0
+[24-Mar-2017 13:34:48 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/header.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/minishop2/htdocs/index.php on line 108
+[24-Mar-2017 13:34:48 UTC] PHP Stack trace:
+[24-Mar-2017 13:34:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/minishop2/htdocs/index.php:0
+[24-Mar-2017 13:36:23 UTC] PHP Warning:  require(/home/ubuntu/workspace/header.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/minishop2/htdocs/index.php on line 108
+[24-Mar-2017 13:36:23 UTC] PHP Stack trace:
+[24-Mar-2017 13:36:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/minishop2/htdocs/index.php:0
+[24-Mar-2017 13:36:23 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/header.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/minishop2/htdocs/index.php on line 108
+[24-Mar-2017 13:36:23 UTC] PHP Stack trace:
+[24-Mar-2017 13:36:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/minishop2/htdocs/index.php:0
+[11-Sep-2018 13:48:22 UTC] PHP Warning:  require(/home/ubuntu/workspace/header.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/minishop2/htdocs/index.php on line 108
+[11-Sep-2018 13:48:22 UTC] PHP Stack trace:
+[11-Sep-2018 13:48:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/minishop2/htdocs/index.php:0
+[11-Sep-2018 13:48:22 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/header.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/minishop2/htdocs/index.php on line 108
+[11-Sep-2018 13:48:22 UTC] PHP Stack trace:
+[11-Sep-2018 13:48:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/minishop2/htdocs/index.php:0
+[11-Sep-2018 13:48:25 UTC] PHP Warning:  require(/home/ubuntu/workspace/header.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/minishop2/htdocs/index.php on line 108
+[11-Sep-2018 13:48:25 UTC] PHP Stack trace:
+[11-Sep-2018 13:48:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/minishop2/htdocs/index.php:0
+[11-Sep-2018 13:48:25 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/header.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/minishop2/htdocs/index.php on line 108
+[11-Sep-2018 13:48:25 UTC] PHP Stack trace:
+[11-Sep-2018 13:48:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/minishop2/htdocs/index.php:0
