@@ -1,6 +1,8 @@
 <?php
 if (!($mysqli = mysqli_connect("localhost", "djpolmd", "")))
+
 	exit("Could not connect: ".mysqli_connect_error().PHP_EOL);
+	
 if (!($queries = file_get_contents("rush00.sql")))
 	exit("Could not import database.".PHP_EOL);
 $queries = str_replace("\n", "", $queries);

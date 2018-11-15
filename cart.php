@@ -1,11 +1,13 @@
 <?php
 $cart;
+
 function load_cart(&$cart, $sql_ptr)
 {
 	if (empty($_SESSION['cart']))
 		$_SESSION['cart'] = NULL;
 	$cart = explode(";", $_SESSION['cart']);
 }
+
 function print_cart($sql_ptr)
 {
 	if (empty($_SESSION['cart']))
@@ -13,6 +15,7 @@ function print_cart($sql_ptr)
 		echo "Cart is empty...";
 		return ;
 	}
+	
 	foreach (array_count_values(explode(";", $_SESSION['cart'])) as $k => $v)
 	{
 		if (($ret = mysqli_query($sql_ptr, 'SELECT name, price FROM items WHERE id="'.
@@ -30,6 +33,8 @@ function print_cart($sql_ptr)
 		}
 	}
 	$total = 0;
+	
+	
 	foreach (explode(";", $_SESSION['cart']) as $k)
 	{
 		if (($ret = mysqli_query($sql_ptr, 'SELECT price FROM items WHERE id="'.
@@ -41,17 +46,20 @@ function print_cart($sql_ptr)
 	}
 	echo "<h4>TOTAL : &nbsp;".$total."&euro;</h4>";
 }
+
 function add_to_cart(&$cart)
 {
 	$cart[] = $_GET['id'];
 	$_SESSION['cart'] = implode(";", $cart);
 	save_action_and_reload("Added to cart");
 }
+
 function clear_cart()
 {
 	$_SESSION['cart'] = NULL;
 	save_action_and_reload("The cart has been cleared");
 }
+
 function checkout_cart($sql_ptr)
 {
 	if (empty($_SESSION['cart']))
@@ -64,6 +72,7 @@ function checkout_cart($sql_ptr)
 	$cmd_usr_id = mysqli_fetch_assoc($cmd_usr_id);
 	$cmd_total = 0;
 	$unserlz_cart = explode(";", $_SESSION['cart']);
+	
 	foreach ($unserlz_cart as $k)
 	{
 		if (($ret = mysqli_query($sql_ptr, 'SELECT price FROM items WHERE id="'.
@@ -82,5 +91,6 @@ function checkout_cart($sql_ptr)
 	$_SESSION['cart'] = NULL;
 	save_action_and_reload("Order confirmed");
 }
+
 load_cart($cart, $sql_ptr);
 ?>

@@ -38,10 +38,7 @@
 				else
 					$cat_name = "category";
 				
-				echo '<div class="back_category"><a href="/categories?cat='.
-					$row['category_id'].
-					'">Back to '.
-					$cat_name.'</a></div>';
+				echo '<div class="back_category"><a href="/categories?cat='.$row['category_id'].'">Back to '.$cat_name.'</a></div>';
 				echo "<img class=\"item_img\" src=\"$ipath\" />";
 				echo '<div class="item_info">'.
 					$row['name'].
@@ -68,6 +65,13 @@
 							add_to_cart($cart);
 					?>
 				<!--  -->
+			<div id="info">
+			<div class="contact">
+			  <p>Email: info@academy.md</p>
+			  <p>Number: +790542134</p> 
+			  <p>Adress: st. Columna 170</p> 
+			  <p>Company Name: StarNet</p> 
+			</div>
 				</div></div>
 			</div>
 			<?php require($_SERVER['DOCUMENT_ROOT']."/footer.html"); ?>

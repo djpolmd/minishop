@@ -5,6 +5,7 @@ function load_index_php()
 	header("https://academy-shop-djpolmd.c9users.io/minishop2/htdocs/");
 	exit ;
 }
+
 function save_action_and_reload($action)
 {
 	$_SESSION['last_action'] = $action;
@@ -23,34 +24,38 @@ function save_action_and_reload_noget($action)
 
 session_start();
 
-$sql_ptr = mysqli_connect("localhost", "djpolmd", "", "rush00");
-if (!$sql_ptr || !mysqli_set_charset($sql_ptr, "utf8"))
-	exit("mySQL error: ".mysqli_connect_error().PHP_EOL);
-$imgs_path = "/img";
+$sql_ptr = mysqli_connect("localhost", "djpolmd", "", "rush00");   //database credensials -> must change
+
+	if (!$sql_ptr || !mysqli_set_charset($sql_ptr, "utf8"))
+		exit("mySQL error: ".mysqli_connect_error().PHP_EOL);
+		
+$imgs_path = "/img";												 //Set imag path
 
 setlocale(LC_MONETARY, 'eu_DE');
 
-if (!empty($_SESSION['last_action']))
-{
-	echo '<div class="top-alert-box">'.
-		$_SESSION['last_action'].
-		'</div>';
-	$_SESSION['last_action'] = NULL;
-}
+	if (!empty($_SESSION['last_action']))
+	{
+		echo '<div class="top-alert-box">'.
+			$_SESSION['last_action'].
+			'</div>';
+		$_SESSION['last_action'] = NULL;
+	}
 
 ?>
 
+	<--! Categories routes -->
+		
 <div class="top-box">
 	<h1 class="site-title">
-		<a href="/">Academy+buy</a>
+		<a href="/">Academy+Shop</a>
 	</h1>
 	<table>
-		<tr>
-			<th><a href="/categories?cat=1">Laptops</a></th>
-			<th><a href="/categories?cat=2">Cockrings</a></th>
-			<th><a href="/categories?cat=3">Dildos</a></th>
-			<th><a href="/categories?cat=4">Lingeries</a></th>
-			<th><a href="/categories?cat=5">Lubes</a></th>
+		<tr>													
+			<th><a href="/categories?cat=1">Clouth</a></th>
+			<th><a href="/categories?cat=2">Tech</a></th>
+			<th><a href="/categories?cat=3">Soft</a></th>
+			<th><a href="/categories?cat=4">Hardware</a></th>
+			<th><a href="/categories?cat=5">Other</a></th>
 		</tr>
 	</table>
 </div>

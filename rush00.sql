@@ -47,7 +47,7 @@ CREATE TABLE IF NOT EXISTS `users` (
 
 INSERT INTO `rush00`.`categories` (`id`, `name`) VALUES (NULL, 'drinks'), (NULL, 'tech'), (NULL, 'soft'), (NULL, 'hardware'), (NULL, 'other');
 
-INSERT INTO `rush00`.`users` (`id`, `login`, `password`, `lastname`, `firstname`, `address`, `zipcode`, `city`, `admin`) VALUES (NULL, 'root', '4925da7da7a56260baf1c37925a8fa24e46ad8b107dcd21f44e39e4751bae1304fc70de7acb847ffa96126bb372de005f5320f1ede6f9df07c7d53f9c160f022', 'root', 'root', 'root', 69069, 'root', 1) ;
+INSERT INTO `rush00`.`users` (`id`, `login`, `password`, `lastname`, `firstname`, `address`, `zipcode`, `city`, `admin`) VALUES (NULL, 'root', 'password', 'root', 'root', 'root', 69069, 'root', 1) ;
 
 INSERT INTO `rush00`.`items` (`id`, `category_id`, `category_id2`, `name`, `price`) VALUES 
 (NULL, 1, 0, 'Bath', 70),
