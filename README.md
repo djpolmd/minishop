@@ -7,4 +7,4 @@
 
 3 . log in as root : passowrd
 
-<img src= "screen_shot.jpg">
+<img src= "screee_shot.jpg">
