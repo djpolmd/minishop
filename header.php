@@ -1,8 +1,10 @@
 <?php
 
+include('settings/const.php');
+
 function load_index_php()
 {
-	header("https://academy-shop-djpolmd.c9users.io/minishop2/htdocs/");
+	header(DName);
 	exit ;
 }
 
@@ -28,10 +30,6 @@ $sql_ptr = mysqli_connect("localhost", "djpolmd", "", "rush00");   //database cr
 
 	if (!$sql_ptr || !mysqli_set_charset($sql_ptr, "utf8"))
 		exit("mySQL error: ".mysqli_connect_error().PHP_EOL);
-		
-$imgs_path = "/img";												 //Set imag path
-
-setlocale(LC_MONETARY, 'eu_DE');
 
 	if (!empty($_SESSION['last_action']))
 	{
@@ -43,7 +41,7 @@ setlocale(LC_MONETARY, 'eu_DE');
 
 ?>
 
-	<--! Categories routes -->
+	<!-- Categories routes -->
 		
 <div class="top-box">
 	<h1 class="site-title">

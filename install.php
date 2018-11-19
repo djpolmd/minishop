@@ -6,6 +6,7 @@ if (!($mysqli = mysqli_connect("localhost", "djpolmd", "")))
 if (!($queries = file_get_contents("rush00.sql")))
 	exit("Could not import database.".PHP_EOL);
 $queries = str_replace("\n", "", $queries);
+
 if (!(mysqli_multi_query($mysqli, $queries)))
 	echo "Could not create database.".PHP_EOL;
 else

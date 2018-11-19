@@ -5,6 +5,7 @@
 
 2 . Run php install.php on server side, it will migrate an demo DB;
 
-3 . log in as root : password
+3 . log in as root : password, chech info.php for global variabe and delete it from server side.
+
 
 <img src= "screee_shot.jpg">

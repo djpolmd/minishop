@@ -1,5 +1,5 @@
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET time_zone = "+00:00";
+SET time_zone = "+02:00";
 
 CREATE DATABASE IF NOT EXISTS `rush00` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
 USE `rush00`;
@@ -47,7 +47,7 @@ CREATE TABLE IF NOT EXISTS `users` (
 
 INSERT INTO `rush00`.`categories` (`id`, `name`) VALUES (NULL, 'drinks'), (NULL, 'tech'), (NULL, 'soft'), (NULL, 'hardware'), (NULL, 'other');
 
-INSERT INTO `rush00`.`users` (`id`, `login`, `password`, `lastname`, `firstname`, `address`, `zipcode`, `city`, `admin`) VALUES (NULL, 'root', 'password', 'root', 'root', 'root', 69069, 'root', 1) ;
+INSERT INTO `rush00`.`users` (`id`, `login`, `password`, `lastname`, `firstname`, `address`, `zipcode`, `city`, `admin`) VALUES (NULL, 'root', '60036013bbb7c28e9a3333876dff92ef2305b4f159f7d24f9bb75e1fb6ef7bb0d5a589c682f6a9c269783d1891654f0f0b7150f97f81b3786d6cf68645eaab8d', 'root', 'root', 'root', 69069, 'root', 1) ;
 
 INSERT INTO `rush00`.`items` (`id`, `category_id`, `category_id2`, `name`, `price`) VALUES 
 (NULL, 1, 0, 'Bath', 70),

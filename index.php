@@ -1,5 +1,6 @@
 <?php
 
+
 function newusr_check_input($sql_ptr)
 {
 	if (!preg_match("/^([0-9A-Za-z]*)$/", $_POST['login']))
@@ -101,13 +102,17 @@ function logoutusr()
 <html><head>
 	<title>ft_minishop</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<link rel="stylesheet" type="text/css" href="/ft_minishop.css">
-	<link rel="stylesheet" type="text/css" href="/previews_css.css">
+	<link rel="stylesheet" type="text/css" href="css/ft_minishop.css">
+	<link rel="stylesheet" type="text/css" href="css/previews_css.css">
 </head><body>
 	<div class="main-box">
+		<!-- PHP  Header-->
+		<?php 
+		require($_SERVER['DOCUMENT_ROOT']."/header.php");
+		?>
 		
-		<?php require($_SERVER['DOCUMENT_ROOT']."/header.php");?>
 		<div class="content-box">
+			
 			<?php
 			require($_SERVER['DOCUMENT_ROOT']."/cart.php");
 			if (isset($_POST['submit_type']))
@@ -150,4 +155,5 @@ function logoutusr()
 		</div>
 		<?php require($_SERVER['DOCUMENT_ROOT']."/footer.html"); ?>
 	</div>
-</body></html>
+</body>
+</html>

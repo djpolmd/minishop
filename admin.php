@@ -1,4 +1,5 @@
-<?ph
+<?php
+
 	function rm_usr($id, $sql_ptr)
 	{
 		$ret = mysqli_query($sql_ptr, 'SELECT id FROM users WHERE id="'.$id.'";');
@@ -40,15 +41,18 @@
 		return true;
 	}
 ?>
+
 <!doctype html>
 <html>
 	<head>
 		<title>ft_minishop</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<link rel="stylesheet" type="text/css" href="/ft_minishop.css">
+		<link rel="stylesheet" type="text/css" href="/css/ft_minishop.css">
 	</head>
 	<body>
 		<div class="main-box">
+			<!-- 			  		 -->
+			<!--       PHP   Code     -->
 			<?php
 				require($_SERVER['DOCUMENT_ROOT']."/header.php"); 
 				if ($_SESSION['login'] !== 'root')
@@ -86,6 +90,7 @@
 			?>
 			<div class="content-box">
 				<a href="http://ft_minishop.local.42.fr:8080/admin" style="font-size: 20px; color: green;">Refresh</a>
+				<!-- 			 -->
 				<!-- PRINT USERS -->
 					<div style="font-weight: bold; font-size: 20px;text-decoration: underline; margin-top: 20px; margin-bottom: 10px;">Users:</div>
 					<?php
@@ -93,7 +98,7 @@
 						while ($tab = mysqli_fetch_assoc($ret))
 							echo '&nbsp;&nbsp;&#9679; '.$tab['login'].'&nbsp;<a href="?usrdel='.$tab['id'].'" style="font-size: 12px;">delete</a><br/>';
 					?>
-				<!--  -->
+				<!-- 			 -->
 				<!-- PRINT COMMANDS -->
 					<div style="font-weight: bold; font-size: 20px;text-decoration: underline; margin-top: 20px; margin-bottom: 10px;">Commands:</div>
 					<?php
@@ -105,7 +110,7 @@
 							echo '&nbsp;&nbsp;&#9679; #'.$tab['id'].'&nbsp;'.money_format('%!10.2n &euro;', (float)$tab['amount'] / 100.).'&nbsp;(user: '.$tab['user_id'].'&nbsp;'.$tab['login'].')&nbsp;'.'<a href="?cmddel='.$tab['id'].'" style="font-size: 12px;">delete</a><br/>';
 						}
 					?>
-				<!--  -->
+				<!-- 			 -->
 				<!-- PRINT ITEMS -->
 					<div style="font-weight: bold; font-size: 20px;text-decoration: underline; margin-top: 20px; margin-bottom: 10px;">Items:</div>
 					<?php
@@ -113,7 +118,7 @@
 						while ($tab = mysqli_fetch_assoc($ret))
 							echo '&nbsp;&nbsp;&#9679; #'.$tab['id'].'&nbsp;'.$tab['name'].'&nbsp;'.money_format('%!10.2n &euro;', (float)$tab['price'] / 100.).'&nbsp;'.'(cat: '.$tab['cat'].')&nbsp;<a href="?itemdel='.$tab['id'].'" style="font-size: 12px;">delete</a><br/>';
 					?>
-				<!--  -->
+				<!--  			-->
 				<!-- ADD RAND ITEM -->
 					<div style="font-weight: bold; font-size: 20px;text-decoration: underline; margin-top: 20px; margin-bottom: 10px;">Add Item:</div>
 					<a href="?randitem=1">Add a random item</a>

@@ -1,4 +1,6 @@
 <?php
+
+include('settings/const.php');  //import CONSTANT
 $cart;
 
 function load_cart(&$cart, $sql_ptr)
@@ -27,7 +29,7 @@ function print_cart($sql_ptr)
 			$str = "";
 			if ($ret['price'] < 1000.)
 				$str .= "&nbsp;";
-			$str .= money_format('%!10.2n &euro;', (float)$ret['price'] / 100.).
+			$str .= money_format('%!10.2n '.CURRENCY, (float)$ret['price'] / 100.).
 				"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;".$ret['name']." x".$v."<br/>";
 			echo $str;
 		}
@@ -44,21 +46,21 @@ function print_cart($sql_ptr)
 		if (!empty($ret['price']))
 			$total += $ret['price']/100;
 	}
-	echo "<h4>TOTAL : &nbsp;".$total."&euro;</h4>";
+	echo "<h4>TOTAL : &nbsp;".$total."&nbsp;&nbsp;".CURRENCY."</h4>";
 }
 
 function add_to_cart(&$cart)
-{
-	$cart[] = $_GET['id'];
-	$_SESSION['cart'] = implode(";", $cart);
-	save_action_and_reload("Added to cart");
-}
+	{
+		$cart[] = $_GET['id'];
+		$_SESSION['cart'] = implode(";", $cart);
+		save_action_and_reload("Added to cart");
+	}
 
 function clear_cart()
-{
-	$_SESSION['cart'] = NULL;
-	save_action_and_reload("The cart has been cleared");
-}
+	{
+		$_SESSION['cart'] = NULL;
+		save_action_and_reload("The cart has been cleared");
+	}
 
 function checkout_cart($sql_ptr)
 {

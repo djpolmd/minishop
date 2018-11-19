@@ -1,5 +1,5 @@
 <?php
-
+include('settings/const.php');
 $request = 'SELECT id, name, price FROM `items` ORDER BY RAND() LIMIT 0,1;';
 $result = mysqli_query($sql_ptr, $request);
 
@@ -13,12 +13,12 @@ if (mysqli_num_rows($result) > 0) {
 				!file_exists($_SERVER['DOCUMENT_ROOT']."$ipath") ||
 				($dat = getimagesize($_SERVER['DOCUMENT_ROOT'].$ipath)) === false ||
 					$dat['mime'] !== 'image/jpeg')
-						$ipath = "$imgs_path/fallback.jpg";
+						IPATH;
 			echo '<div class="cat-item-box"><div>'.
 				'<a href="'.$itemPage.$row['id'].'">'.
 				'<img src="'.$ipath.'" />'.
 				'<div>'.$row['name'].' '.
-				money_format('%!10.2n &euro;', (float)$row['price'] / 100.).
+				money_format('%!10.2n '.CURRENCY, (float)$row['price'] / 100.).
 				'</div>'.
 				"</a></div></div>";
 		}

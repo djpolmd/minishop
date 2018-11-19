@@ -3,16 +3,27 @@
 	<head>
 		<title>ft_minishop</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<link rel="stylesheet" type="text/css" href="/ft_minishop.css">
-		<link rel="stylesheet" type="text/css" href="/categories_css.css">
+		<link rel="stylesheet" type="text/css" href="css/ft_minishop.css">
+		<link rel="stylesheet" type="text/css" href="css/categories_css.css">
 	</head>
 	<body>
 		<div class="main-box">
 			
-			<?php require($_SERVER['DOCUMENT_ROOT']."/header.php"); ?>
+			<!--  PHP Code Header  -->
+			<?php
+			require($_SERVER['DOCUMENT_ROOT']."/header.php"); 
+			?>
+			
 			<div class="content-box">
-				<?php if (!isset($_GET['cat']))
+				
+				<!-- PHP Content Box -->
+				
+			<?php 
+				include('settings/const.php');
+				
+				if (!isset($_GET['cat']))
 					load_index_php();
+					
 				$request = "SELECT name FROM categories WHERE id='".
 					mysqli_real_escape_string($sql_ptr, $_GET['cat'])."';";
 				$result = mysqli_query($sql_ptr, $request);
@@ -33,16 +44,17 @@
 					{
 						$ipath;
 						if (!isset($row['id']) ||
-							!($ipath = "$imgs_path/".$row['id'].'.jpg') ||
-							!file_exists($_SERVER['DOCUMENT_ROOT']."$ipath") ||
-							($dat = getimagesize($_SERVER['DOCUMENT_ROOT'].$ipath)) === false ||
+							!($ipath = "$imgs_path/".$row['id'].'.jpeg') ||
+							!file_exists($_SERVER['DOCUMENT_ROOT'].IPATH) ||
+							($dat = getimagesize($_SERVER['DOCUMENT_ROOT'].IPATH)) === false ||
 							$dat['mime'] !== 'image/jpeg')
-								$ipath = "$imgs_path/fallback.jpg";
+								$ipath = IPATH;
+								
 						echo '<div class="cat-item-box"><div>'.
 							'<a href="'.$itemPage.$row['id'].'">'.
 							'<img src="'.$ipath.'" />'.
 							'<div>'.$row['name'].' '.
-							money_format('%!10.2n &euro;', (float)$row['price'] / 100.).
+							money_format('%!10.2n '.CURRENCY, (float)$row['price'] / 100.).
 							'</div>'.
 							"</a></div></div>";
 					}
@@ -51,7 +63,9 @@
 					echo "empty...";
 				?>
 			</div>
-			<?php require($_SERVER['DOCUMENT_ROOT']."/footer.html"); ?>
+			<?php require($_SERVER['DOCUMENT_ROOT']."/footer.html");
+			
+			?>
 		</div>
 	</body>
 </html>
