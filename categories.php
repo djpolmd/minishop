@@ -8,6 +8,7 @@
 	</head>
 	<body>
 		<div class="main-box">
+			
 			<?php require($_SERVER['DOCUMENT_ROOT']."/header.php"); ?>
 			<div class="content-box">
 				<?php if (!isset($_GET['cat']))
@@ -24,6 +25,7 @@
 					mysqli_real_escape_string($sql_ptr, $_GET['cat'])."' OR category_id2='".
 					mysqli_real_escape_string($sql_ptr, $_GET['cat'])."';";
 				$result = mysqli_query($sql_ptr, $request);
+				
 				if (mysqli_num_rows($result) > 0)
 				{
 					$itemPage = "/item.php?id=";

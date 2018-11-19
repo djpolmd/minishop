@@ -5,6 +5,6 @@
 
 2 . Run php install.php on server side, it will migrate an demo DB;
 
-3 . log in as root : passowrd
+3 . log in as root : password
 
 <img src= "screee_shot.jpg">

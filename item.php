@@ -45,7 +45,8 @@
 					'<br/>'.
 					money_format('%!10.2n &euro;', (float)$row['price'] / 100.).
 					'<br/><div class="to_cart">';?>
-				<!-- BUTTON ADD TO CART -->
+			
+			<!-- BUTTON ADD TO CART -->
 					<form method="POST">
 						<input type="hidden" name="submit_type" value="addtocart" />
 							<div style="font-size: 15px;"><br/>Color :&nbsp;&nbsp;      

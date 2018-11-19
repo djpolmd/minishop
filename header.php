@@ -51,11 +51,11 @@ setlocale(LC_MONETARY, 'eu_DE');
 	</h1>
 	<table>
 		<tr>													
-			<th><a href="/categories?cat=1">Clouth</a></th>
-			<th><a href="/categories?cat=2">Tech</a></th>
-			<th><a href="/categories?cat=3">Soft</a></th>
-			<th><a href="/categories?cat=4">Hardware</a></th>
-			<th><a href="/categories?cat=5">Other</a></th>
+			<th><a href="/categories.php?cat=1">Clouth</a></th>
+			<th><a href="/categories.php?cat=2">Tech</a></th>
+			<th><a href="/categories.php?cat=3">Soft</a></th>
+			<th><a href="/categories.php?cat=4">Hardware</a></th>
+			<th><a href="/categories.php?cat=5">Other</a></th>
 		</tr>
 	</table>
 </div>

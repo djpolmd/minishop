@@ -105,6 +105,7 @@ function logoutusr()
 	<link rel="stylesheet" type="text/css" href="/previews_css.css">
 </head><body>
 	<div class="main-box">
+		
 		<?php require($_SERVER['DOCUMENT_ROOT']."/header.php");?>
 		<div class="content-box">
 			<?php
@@ -122,21 +123,27 @@ function logoutusr()
 				else if ($_POST['submit_type'] === 'checkout')
 					checkout_cart($sql_ptr);
 			}
+			
 			echo '<div class="half_pane">';
 			require($_SERVER['DOCUMENT_ROOT']."/item_preview.php");			
 			echo '<br />';
 			echo '<br />';
 			if ($_SESSION['login'] === 'root')
 				require($_SERVER['DOCUMENT_ROOT']."/admin_box.php");
+				
 			if (!empty($_SESSION['login']))
 				require($_SERVER['DOCUMENT_ROOT']."/user_box.php");
+				
 			if (!empty($_SESSION['login']))
 				require($_SERVER['DOCUMENT_ROOT']."/commands_box.php");
+				
 			if (empty($_SESSION['login']))
 				require($_SERVER['DOCUMENT_ROOT']."/newuser_box.php");
+		
 			echo '</div>';
 			echo '<div class="half_pane">';
-			require($_SERVER['DOCUMENT_ROOT']."/item_preview.php");			
+			require($_SERVER['DOCUMENT_ROOT']."/item_preview.php");	
+			
 			require($_SERVER['DOCUMENT_ROOT']."/cart_box.php");
 			echo '</div>';
 			?>
