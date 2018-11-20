@@ -1,7 +1,8 @@
 <br/><h2>MY COMMANDS:</h2>
+<!-- 				>
+<!-- Commands PHP -->
 <?php
-
-include('/settings/const.php');
+include('settings/const.php');
 
 $ret = mysqli_query($sql_ptr, "SELECT c.id, c.amount, c.date ".
 	"FROM commands c LEFT JOIN users u on c.user_id=u.id ".
