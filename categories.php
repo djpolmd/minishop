@@ -48,7 +48,7 @@
 							!file_exists($_SERVER['DOCUMENT_ROOT'].IPATH) ||
 							($dat = getimagesize($_SERVER['DOCUMENT_ROOT'].IPATH)) === false ||
 							$dat['mime'] !== 'image/jpeg')
-								$ipath = IPATH;
+								 IPATH;
 								
 						echo '<div class="cat-item-box"><div>'.
 							'<a href="'.$itemPage.$row['id'].'">'.
